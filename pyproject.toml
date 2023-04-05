@@ -1,0 +1,16 @@
+[project]
+name = "pythonDevWithCI"
+
+authors = [
+    {name = "thisLarz", email = "bubelgame@gmail.com"},
+]
+requires-python = ">=3.8"
+
+version = "0.1.0"
+
+description = "Default Template for Python Project with integrated CI"
+
+dependencies = [
+    # pandas
+    'pandas ~= 1.5.2'
+]

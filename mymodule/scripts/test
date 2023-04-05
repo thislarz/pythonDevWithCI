@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#
+# install packages
+#
+install_packages() {
+  install test packages
+}
+
+
+
+for testmodule in tests/test*.py
+do
+  echo "$testmodule"
+  python -m unittest discover
+done
